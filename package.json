@@ -23,8 +23,8 @@
     "angular2-modal"
   ],
   "peerDependencies": {
-    "@angular/core": "^2.0.0 || ^4.2.0",
-    "@angular/router": "^3.0.0 || ^4.2.0"
+    "@angular/core": "^2.0.0 || ^4.2.0 || ^8.0.0",
+    "@angular/router": "^3.0.0 || ^4.2.0 || ^8.0.0"
   },
   "devDependencies": {
     "@angular/common": "^8.2.0",
