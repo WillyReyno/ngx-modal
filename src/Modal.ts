@@ -108,7 +108,7 @@ export class Modal {
     // Private properties
     // -------------------------------------------------------------------------
 
-    @ViewChild("modalRoot")
+    @ViewChild("modalRoot", {static: true})
     public modalRoot: ElementRef;
 
     private backdropElement: HTMLElement;
@@ -168,7 +168,7 @@ export class Modal {
         this.backdropElement = document.createElement("div");
         this.backdropElement.classList.add("fade");
         this.backdropElement.classList.add("in");
-        if(this.backdrop) {
+        if (this.backdrop) {
             this.backdropElement.classList.add("modal-backdrop");
         }
     }
